@@ -1,6 +1,6 @@
 # terraform-kubeflow-local
 
-This repository contains a Terraform module that deploys Kubeflow on a local Kubernetes cluster.
+This repository contains a Terraform module that deploys a Standalone Kubeflow on a local Kubernetes cluster.
 
 ## Requirements
 
@@ -18,5 +18,5 @@ terraform plan
 terraform apply
 ```
 
-
+*Once all the services are running in the kubeflow namespace, you can access the Kubeflow pipelines dashboard by visiting `http://localhost:9000`.*
 
