@@ -16,6 +16,7 @@ cd terraform-kubeflow-local
 terraform init
 terraform plan
 terraform apply
+terraform destroy
 ```
 
 *Once all the services are running in the kubeflow namespace, you can access the Kubeflow pipelines dashboard by visiting `http://localhost:9000`.*
