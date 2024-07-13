@@ -32,4 +32,5 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+# As this project is an example, we will ignore the lock file
 terraform-kubeflow-local/.terraform.lock.hcl
