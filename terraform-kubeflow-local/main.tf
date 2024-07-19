@@ -1,5 +1,6 @@
 provider "kubernetes" {
   config_path = "~/.kube/config"
+  config_context = "docker-desktop"
 }
 
 resource "null_resource" "kubeflow_cluster_scoped" {
